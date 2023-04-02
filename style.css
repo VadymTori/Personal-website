@@ -1,5 +1,5 @@
 
- body {background-color: rgb(162, 198, 162);
+body {background-color: rgb(162, 198, 162);
 }
  
  /* Style the list */
@@ -12,10 +12,7 @@
   background-color: #f1f1f1;
 }
 
-/* Float the list items side by side */
-ul.tab li {float: left;
-  padding: 14px 14px 14px 14px
-}
+
 /* Style the links inside the list items */
 ul.tab li a {
   display: inline-block;
@@ -24,7 +21,7 @@ ul.tab li a {
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 /* Change background color of links on hover */
@@ -39,4 +36,29 @@ ul.tab li a:focus, .active {background-color: rgb(172, 129, 212);}
   padding: 6px 12px;
   border: 1px solid rgb(142, 142, 238);
   border-top: none;
+}
+
+.name {
+  float: left;
+  padding: 14px;14px;14px;14px;
+  font-size: 40px;
+}
+
+header {
+  color: blue;
+}
+
+.tablinks {
+    float: right;
+  }
+  
+  .tablinks a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .25em;
+  }
+  
+  .tablinks a:first-of-type {
+    margin-left: 0;
+  }
 }
